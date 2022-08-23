@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  margin: 10px;
+}
+
+.card__box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.card__form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  height: 60px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.app__tittle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}
+
+.card {
+  width: 250px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  gap: 5px;
+  background-color: beige;
+  border-radius: 20px;
+}
+
+.card__item {
+  color: #9f9f9f;
+}
+
+button {
+  cursor: pointer;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.card__btn {
+  display: flex;
+  text-align: center;
+  font-size: 1.5rem;
+  border: none;
+  color: white;
+  transition: button 0.8s ease-in-out;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.card__btn:hover {
+  box-shadow: 0 0 10px black;
+}
+
+.card__btn:active {
+  transform: scale(0.9);
+}
+
+.delete {
+  background-color: red;
+}
+
+.update {
+  color: #9f9f9f;
+  background-color: #d2cece;
+}
+
+.edit__input {
+  border: none;
+  border-radius: 2px;
+  color: black;
+  padding: 5px;
+
+}
+
+.new__user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.new__user__box {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 15px;
+  border: 1px solid #aeaeae;
+  border-radius: 10px;
+}
+
+.new__user__form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 15px;
+}
+
+.new__user_tittle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.new__user__name {
+  display: flex;
+  gap: 10px;
+}
+
+.new__user__span {
+  display: flex;
+  gap: 10px;
+}
+
+.new__user__input {
+  border: none;
+  border-radius: 5px;
+  background-color: #d2cece;
+  color: black;
+  padding: 5px;
+}
+
+.btn__upload {
+  background-color: aquamarine;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn__upload:active {
+  transform: scale(0.9);
+}
+
+.btn__cancel {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: red;
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.btn__cancel:active {
+  transform: scale(0.9);
+}
+
+.edit {
+  display: none;
+}
+
+.show {
+  display: none;
+}
